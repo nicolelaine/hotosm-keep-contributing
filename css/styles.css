@@ -1,0 +1,132 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    text-align: justify;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #d53f40;
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.social-media {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-media li a {
+    text-decoration: none;
+    color: #007BC1;
+}
+
+.social-media li a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    width: 375px;
+    height: auto;
+}
+
+h3 {
+    color: #d53f40;
+    font-size: 30px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0; /* Adjust margin as needed */
+}
+
+.button {
+    background-color: #d53f40;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    border-radius: 40px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.button:hover {
+    background-color: #b13233; /* Darken the color slightly on hover */
+}
+
+header {
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    color: #d53f40; /* Change color to your desired color */
+    font-size: 30px; /* Change font size to your desired size */
+    padding-top: 10px;
+}
+
+h4 {
+    color: #d53f40;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+#upskill {
+    margin-top: 20px;
+}
+
+#continue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+#continue ul {
+    text-align: left; /* Align the bullet points to the left */
+    margin-left: 0; /* Remove default left margin */
+    padding-left: 20px; /* Add padding for the bullet points */
+}
+
+#continue li {
+    text-align: left; /* Align the text within list items to the left */
+}
